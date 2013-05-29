@@ -1,10 +1,26 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Sample Backbone Application</title>
+    <title>Backbone Application Example</title>
+    <link rel="stylesheet" type="text/css" href="libraries/bootstrap.css"/>
+    <script type="text/javascript" src="libraries/jquery-2.0.1.js"></script>
+    <script type="text/javascript" src="libraries/underscore.js"></script>
+    <script type="text/javascript" src="libraries/backbone.js"></script>
+
+    <script type="text/javascript" src="js/models/books.js"></script>
+    <script type="text/javascript" src="js/ui/main.js"></script>
+    <script type="text/javascript" src="js/ui/book.js"></script>
+    <script type="text/javascript" src="js/router.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript" src="js/initialize.js"></script>
 </head>
 <body>
-
+    <div class="container">
+        <div class="j-main span12">
+            <div class="j-books_list"></div>
+        </div>
+        <div class="j-book" style="display: none;"></div>
+    </div>
 </body>
 </html>
